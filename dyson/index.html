@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" href="https://pic.superbed.cn/item/5dba4b74bd461d945a7538d8.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	<title>Dyson吹风机</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/loading.css">
+	<script src="js/flexiable.js"></script>
+	<!-- 引入zepto.js -->
+	<script src="js/zepto.js/zepto.min.js" type="text/javascript"></script>
+	<script src="js/zepto.js/selector+touch+fx+fx_method.js" type="text/javascript"></script>
+	<!-- zepto.jsy引入结束 -->
+	<!-- 引入swiper -->
+	<link rel="stylesheet" href="css/swiper-4.2.2.min.css">
+	<!-- 引入swiper结束 -->
+
+</head>
+
+<body>
+	<!-- 横屏提示 -->
+	<div class="horizontal-full">
+		<div class="table-full">
+			<div class="tb-m">
+				<!-- <img src="./horizontal_tip.png" alt=""> -->
+				<img src="https://i.demo-1s.com/2019/10/31/Qa0I9We8vt8avEIm.png" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- loading -->
+	<div class="loading">
+		<div class="loading-m">
+			<img src="./images/logo2.png" class="loading_logo">
+			<span class="loadAnim"></span>
+		</div>
+	</div>
+	<!-- loading结束 -->
+	<!-- video -->
+	<div class="video-box">
+		<canvas id="canvas" width="750" height="1206">
+
+		</canvas>
+	</div>
+	<!-- video结束 -->
+
+	<!-- KV -->
+	<div class="KV" id="KV">
+		<div class="KV_header">
+			<p>新年新光彩</p>
+		</div>
+
+		<div class="KV_dotted">
+			<div>
+				<p>气流倍增</p>
+				<img src="./images/kv_dot.png" alt="">
+			</div>
+
+			<div>
+				<p>数码马达</p>
+				<img src="./images/kv_dot.png" alt="">
+			</div>
+
+			<div>
+				<img src="./images/kv_dot.png" alt="">
+				<p>智能控温</p>
+			</div>
+		</div>
+		<!-- 遮罩一 -->
+		<div class="KV_cover" id="Cover1">
+			<div class="KV_cover_contain">
+				<img src="" alt="" class="cover1_header">
+				<img src="./images/product1txt.png" alt="">
+			</div>
+			<div class="KV_Close">
+				<img src="./images/cover_close.png" alt="">
+			</div>
+		</div>
+		<!-- 遮罩一结束 -->
+		<!-- 遮罩二 -->
+		<div class="KV_cover" id="Cover2">
+			<div class="KV_cover_contain">
+				<img src="" alt="" class="cover2_header">
+				<img src="./images/product2txt.png" alt="">
+			</div>
+			<div class="KV_Close">
+				<img src="./images/cover_close.png" alt="">
+			</div>
+		</div>
+		<!-- 遮罩二结束 -->
+		<!-- 遮罩三 -->
+		<div class="KV_cover" id="Cover3">
+			<div class="KV_cover_contain">
+				<img src="" alt="" class="cover3_header">
+				<img src="./images/product3txt.png" alt="">
+			</div>
+			<div class="KV_Close">
+				<img src="./images/cover_close.png" alt="">
+			</div>
+		</div>
+		<!-- 遮罩三结束 -->
+		<div class="KV_footTxt">
+			<img src="./images/dyson_txt.png" alt="">
+		</div>
+
+		<div class="Choose_footTxt">
+			<p>用一张新年贺卡告诉TA</p>
+
+			<ul>
+				<li>
+					<img src="./images/choose_love.png" alt="">
+					<p>送给你</p>
+				</li>
+				<li>
+					<img src="./images/choose_want.png" alt="">
+					<p>我想要</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- KV结束 -->
+	<!-- 背景音乐 -->
+	<div class="BGM">
+		<div>
+			<img src="./images/player.png" alt="加载失败">
+			<audio type="audio/mpeg" loop id="audio">
+				<source src="./bg.mp3" type="audio/mp3">
+			</audio>
+			<!-- 放置音乐 -->
+		</div>
+	</div><!-- 背景音乐结束 -->
+
+	<!-- interact -->
+	<div class="Interact" id="Interact">
+		<div class="Interact_cover"></div>
+		<div class="Interact_bgimg">
+			<!-- 最里面的背景 -->
+			<img src="./images/interact_bg.png" alt="">
+		</div>
+
+		<!-- 头部logo -->
+		<div class="Interact_header">
+			<img src="./images/dyson_logo.png" alt="">
+			<p>新年新光彩</p>
+		</div>
+
+		<!-- 中间圆圈阴影 -->
+		<div class="_circle">
+			<div class="swiper-container swiper1" id="Swiper1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="circle_left">
+							<img src="./images/grade0/1.png" alt="" class="left_imge">
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="circle_right">
+							<img src="./images/grade0/bg.png" alt="" class="right_bg">
+							<img src="./images/grade4/1.png" alt="" class="right_imge">
+						</div>
+					</div>
+				</div>
+				<!-- 导航按钮 -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+		</div>
+
+		<!-- 背景吹风机 -->
+		<div class="Interact_Bground">
+			<!-- 滑动手势 -->
+			<div class="Interact_slideCursor">
+				<img src="./images/slide_cursor.png" alt="">
+				<p>切换转轮</p>
+			</div>
+
+			<!-- 风速控制 -->
+			<div class="Interact_wind">
+				<img src="./images/interact_wind.png" alt="">
+			</div>
+			<div class="Interact_control_wind">
+				<img src="./images/click_cursor.png" alt="">
+				<p>调节风速</p>
+			</div>
+			<ul class="Interact_dot_left">
+				<li>
+					<img src="./images/interact_dot_left.png" alt="">
+				</li>
+				<li>
+					<img src="./images/interact_dot_left.png" alt="">
+				</li>
+				<li>
+					<img src="./images/interact_dot_left.png" alt="">
+				</li>
+			</ul>
+
+			<!-- 温度控制 -->
+			<div class="Interact_temp">
+				<img src="./images/interact_tem.png" alt="">
+			</div>
+			<div class="Interact_control_temp">
+				<p>调节温度</p>
+				<img src="./images/click_cursor.png" alt="">
+			</div>
+			<ul class="Interact_dot_right">
+				<li>
+					<img src="./images/interact_dot_right.png" alt="">
+				</li>
+				<li>
+					<img src="./images/interact_dot_right.png" alt="">
+				</li>
+				<li>
+					<img src="./images/interact_dot_right.png" alt="">
+				</li>
+			</ul>
+
+		</div>
+
+		<div class="Interact_yes">
+			<img src="./images/interact_yes.png" alt="">
+		</div>
+
+	</div>
+
+	<!-- interact结束 -->
+
+	<!-- blessing -->
+	<div class="Blessing" id="Blessing">
+		<div class="Blesing_bg">
+			<img src="./images/blessing_bg.png" alt="">
+		</div>
+
+		<div class="Blessing_header_logo">
+			<img src="./images/dyson_logo.png" alt="">
+		</div>
+
+		<!-- 	contain -->
+		<div class="Blessing_contain">
+
+			<img class="containTbg" src=""></img>
+			<img class="containTurn" src=''></img>
+
+
+			<div class="Blessing_contain_header">
+				<img src="./images/blessing_contain_user.png" alt="">
+				<p>Mikay</p>
+				<i>新年就送戴森吹风机给你</i>
+			</div>
+
+			<div class="Blessing_contain_footer">
+				<i>许一句心愿吧</i>
+				<div class="Blessing_contain_footer_zhufuyu">
+					<img class="Blessing_border_shadow" src="./images/blessing_border_shadow.png" alt="">
+					<div class="contain_list">
+						<div class="swiper-container" id="Swiper2">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<span>人人都送玫瑰，<br />不如送你戴森</span>
+								</div>
+								<div class="swiper-slide">
+									<span>
+										玫瑰会凋零，<br />戴森不会
+									</span>
+								</div>
+								<div class="swiper-slide">
+									<span>
+										让我无微不至的爱，<br />萦绕你的发丝
+									</span>
+								</div>
+								<div class="swiper-slide">
+									<span>
+										对我最好的你，<br />送我对头发最好的Dyson吧
+									</span>
+								</div>
+								<div class="swiper-slide">
+									<span>
+										小巧的马达更懂我心，<br />你也一样，对吗？
+									</span>
+								</div>
+
+							</div>
+							<!-- 前进后退按钮 -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div> <!-- contain 结束-->
+
+		<!-- blessing_footer -->
+		<div class="Blessing_footer">
+			<img class="blessing_img1" src="./images/blessing_footer_bag.png" alt="">
+			<p class="blessing_p">将心意送给好友</p>
+		</div>
+
+		<!-- sharecover -->
+		<div class="Blessing_share">
+			<div class="share_page">
+			</div>
+			<div class="share_txt">
+				<img class="share_img2" src="./images/Loading_txt.png" alt="">
+				<span class="loadAnim"></span>
+				<i class="share_i">新年到，快将心意转发出去吧！</i>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- blessing结束 -->
+
+
+	<script src="js/preload.js" type="text/javascript"></script>
+	<script src="js/video.js" type="text/javascript"></script>
+	<script src="js/swiper-4.2.2.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
