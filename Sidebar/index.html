@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="https://pic.superbed.cn/item/5dba4b74bd461d945a7538d8.png" type="image/icon">
+	<title>这是一个侧边栏展示DEMO</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--icon图标,引用bootstrap-->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css">
+	<!--引用完毕-->
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="sidebar" class="sidebar">
+
+
+		<ul class="UL">
+			<li id="prof" class="item"><span class="glyphicon glyphicon-user"></span>
+				<div>个人</div>
+			</li>
+			<li id="asset" class="item"><span class="glyphicon glyphicon-usd"></span>
+				<div>资产</div>
+			</li>
+			<li id="brand" class="item"><span class="glyphicon glyphicon-heart"></span>
+				<div>品牌</div>
+
+			</li>
+			<li id="broadcast" class="item"><span class="glyphicon glyphicon-bell"></span>
+				<div>直播</div>
+			</li>
+			<li id="foot" class="item"><span class="glyphicon glyphicon-eye-open"></span>
+				<div>历史</div>
+			</li>
+			<li id="calendar" class="item"><span class="glyphicon glyphicon-time"></span>
+				<div>日历</div>
+
+			</li>
+		</ul>
+
+		<!-- 下面关闭按钮 -->
+		<div id='close' class="Close"><span class="glyphicon glyphicon-remove"></span></div>
+
+
+	</div>
+
+	<!-- 二级侧边栏 -->
+	<div id="prof-content" class="nav-content">个人<div class="nav-content-close"><span
+				class="glyphicon glyphicon glyphicon-chevron-left"></span></div>
+	</div>
+	<div id="asset-content" class="nav-content">资产<div class="nav-content-close"><span
+				class="glyphicon glyphicon glyphicon-chevron-left"></span></div></span></div>
+	<div id="brand-content" class="nav-content">品牌<div class="nav-content-close"><span
+				class="glyphicon glyphicon glyphicon-chevron-left"></span></div></span></div>
+	<div id="broadcast-content" class="nav-content">直播<div class="nav-content-close"><span
+				class="glyphicon glyphicon glyphicon-chevron-left"></span></div></span></div>
+	<div id="foot-content" class="nav-content">历史<div class="nav-content-close"><span
+				class="glyphicon glyphicon glyphicon-chevron-left"></span></div>
+	</div>
+	<div id="calendar-content" class="nav-content">日历<div class="nav-content-close"><span
+				class="glyphicon glyphicon glyphicon-chevron-left"></span></div></span></div>
+
+	<div id="intro"><img src="intro.jpg"></div><!-- 背景 -->
+	<script type="text/javascript" src="js/sidebar.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="components/jquery/dist/jquery.min.js"><\/script>');
+	</script>
+</body>
+
+</html>

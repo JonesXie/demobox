@@ -1,0 +1,33 @@
+.ql-tooltip{
+	top: 0 !important;
+	left: 0 !important;
+}
+.ql-snow .ql-tooltip[data-mode=link]::before {
+	content: "请输入链接:";
+}
+.ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+  border-right: 0px;
+  content: '保存';
+  padding-right: 0px;
+}
+.ql-snow .ql-tooltip[data-mode=video]::before {
+	content: "请输入链接:";
+}
+.ql-container{
+	height: 450px;
+}
+.Iconrotation{
+	animation: ani-demo-spin 1s linear infinite;
+}
+.ivu-spin-fix .ivu-spin-main {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.ql-snow .ql-picker{
+	height: auto !important;
+}
+.ql-toolbar.ql-snow .ql-formats {
+	margin-right: 20px !important;
+}

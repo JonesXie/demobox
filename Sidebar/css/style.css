@@ -1,0 +1,280 @@
+/*清除格式*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:14px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+/*背景样式*/
+body{
+	background: url("../bg.jpg") fixed repeat-y;
+}
+#intro{
+	margin-top:60px;
+}
+#intro img{
+	display: block;
+	margin: 0 auto; 
+	border:1px #000 solid;
+	box-shadow:6px 5px 9px #FF69B4;
+	border-radius:15px;
+}
+/*sidebar*/
+.sidebar{
+	min-height: 100%;
+	width: 40px;
+	background-color:rgba(0,191,255,0.6);
+	position: absolute;
+ 	top:0;
+	z-index: 100;
+}
+
+/*ul*/
+ .UL{
+	margin-top: 100px;
+}
+.item{
+	margin: 15px 0 15px 0;
+	font-size: 14px;
+	cursor:pointer;
+}
+.item span, .item div{
+	display: block;
+	text-align: center;
+}
+
+/*close*/
+.Close{
+	position: absolute;
+	bottom:100px;
+	left: 10px;
+	cursor:pointer;
+}
+
+/*二级菜单*/
+
+.nav-content{
+	width: 120px;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left: -80px;
+	background-color: rgba(245,255,250,0.6);
+	text-align: center;
+	z-index: 99;
+	opacity: 0;
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.nav-content-close{/*二级菜单关闭按钮*/
+	display: inline-block;
+	position: fixed;
+	right: 10px;
+	cursor:pointer;
+}
+
+/*CSS实现动画效果*/
+/*sidebar向左动画*/
+.sidebar-move-left{
+	-webkit-animation-name: sml;
+	animation-name: sml;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	min-height: 100%;
+	width: 40px;
+	background-color:rgba(0,191,255,0.6);
+	position: absolute;
+ 	top:0;
+}
+@keyframes sml{
+	from{
+	
+	}
+	to{
+		-webkit-transform:translateX(-40px);
+		transform:translateX(-40px);
+	}
+}
+@-webkit-keyframes sml{
+	from{
+	
+	}
+	to{
+		-webkit-transform:translateX(-40px);
+		transform:translateX(-40px);
+	}
+}
+/*十字图标向右动画*/
+.closebar-move-right{
+	-webkit-animation-name: cmr;
+	animation-name: cmr;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	position: absolute;
+	bottom:100px;
+	cursor:pointer;
+}
+@keyframes cmr{
+	from{
+
+	}
+	to{
+		transform: translateX(160px) rotate(405deg) scale(1.5);
+		-webkit-transform:translateX(160px) rotate(405deg) scale(1.5);
+	}
+}
+@-webkit-keyframes cmr{
+	from{
+
+	}
+	to{
+		transform: translateX(160px) rotate(405deg) scale(1.5);
+		-webkit-transform:translateX(160px) rotate(405deg) scale(1.5);
+	}
+}
+/*sidebar向右动画出来*/
+.sidebar-move-right{
+	-webkit-animation-name: smr;
+	animation-name: smr;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	min-height: 100%;
+	width: 40px;
+	background-color:rgba(0,191,255,0.6);
+	position: absolute;
+ 	top:0;
+ 	z-index: 100;
+}
+@keyframes smr{
+	from{
+	
+	}
+	to{
+		-webkit-transform:translateX(40px);
+		transform:translateX(40px);
+	}
+}
+@-webkit-keyframes smr{
+	from{
+	
+	}
+	to{
+		-webkit-transform:translateX(40px);
+		transform:translateX(40px);
+	}
+}
+/*十字图标向左动画回去*/
+.closebar-move-left{
+	-webkit-animation-name: cml;
+	animation-name: cml;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	position: absolute;
+	bottom:100px;
+	cursor:pointer;
+}
+@keyframes cml{
+	from{
+		transform: scale(1.5) ;
+		-webkit-transform:scale(1.5) ;
+	}
+	to{
+		transform: translateX(-150px) rotate(360deg) scale(1);
+		-webkit-transform:translateX(-150px) rotate(360deg) scale(1);
+	}
+}
+@-webkit-keyframes cml{
+	from{
+		transform: scale(1.5) ;
+		-webkit-transform:scale(1.5) ;
+	}
+	to{
+		transform: translateX(-150px) rotate(360deg) scale(1);
+		-webkit-transform:translateX(-150px) rotate(360deg) scale(1);
+	}
+}
+
+/*二级菜单动画效果*/
+/*向右移动出现*/
+.menuContent-move-right {
+	-webkit-animation-name: mmr;
+	animation-name: mmr;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+@keyframes mmr{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+		transform:translateX(120px);
+	}
+}
+
+/*向左移动消失*/
+
+.menuContent-move-left{
+	-webkit-animation-name: mml;
+	animation-name: mml;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+@keyframes mml{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+		transform: translateX(-120px);
+	}
+}
+
+/*切换二级菜单*/
+
+.menuContent-move-up{
+	-webkit-animation-name: mmu;
+	animation-name: mmu;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+@keyframes mmu{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+		transform:translate(10px,-250px);
+	}
+}
