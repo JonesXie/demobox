@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <title>2018信赖之旅</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper-4.3.3.min.css">
+    <script src="./js/flex.js"></script>
+</head>
+
+<body>
+    <!-- 横屏提示结束 -->
+    <div class="wrapAll">
+        <!-- 横屏提示 -->
+        <div class="horizontal-full">
+            <div class="table-full">
+                <img src="./images/horizontal_tip.jpg" alt="" class="horizontal_img">
+            </div>
+        </div>
+        <!-- 背景音乐 -->
+        <div class="BGM">
+            <div>
+                <img src="./images/Music_player.png" alt="加载失败">
+                <audio loop id="audio">
+                    <source src="source/bg.mp3" type="audio/mp3">
+                </audio>
+                <!-- 放置音乐 -->
+            </div>
+        </div>
+        <!-- 背景音乐结束 -->
+        <!--第一屏-->
+        <div class="P1">
+            <img src="./images/P1_background.jpg" alt="" class="P1_background">
+            <div class="P1_img1">
+                <img src="./images/P1_txtL.png" alt="" class="P1_txtL">
+                <img src="./images/P1_train.png" alt="" class="P1_train">
+                <img src="./images/P1_txtR.png" alt="" class="P1_txtR">
+            </div>
+            <div class="P1_img2">
+                <img src="./images/P1_gettip.png" alt="" class="P1_gettip">
+                <div class="P1_gettxt">
+                    <p>从这里与我们开启信赖之旅</p>
+                </div>
+            </div>
+            <div class="P1_img3">
+                <img src="./images/P1_img3_header.png" alt="" class="P1_img3_header">
+                <img src="./images/P1_img3_contain.png" alt="" class="P1_img3_contain">
+                <img src="./images/P1_img3_contain1.jpg" alt="" class="P1_img3_contain1">
+                <img src="./images/P1_img3_button.png" alt="" class="P1_img3_button">
+            </div>
+        </div>
+        <!--第一屏结束-->
+        <!--火车-->
+        <div class="P2">
+            <div class="trin" id="start">
+                <div class="trainText">
+                    <div class="spotTexts"><em class="spotScale"></em>长按屏幕开始旅程...</div>
+                </div>
+                <div class="maxImg">
+                    <div class="startImg">
+                        <!--  前景  -->
+                        <div class="element prospect"><img class="train-img" src="images/qian.png" alt=""></div>
+                        <!--  后景  -->
+                        <div class="element rearView"><img class="train-img" src="images/hou.jpg" alt=""></div>
+                    </div>
+                </div>
+                <!--  火车  -->
+                <div class="train">
+                    <img class="train-img-x" src="images/trin.png" alt="">
+                    <div class="guide middle">
+                        <!--  导向轮  -->
+                        <em class="list"></em>
+                        <em class="list"></em>
+                    </div>
+                    <div class="frontWheel">
+                        <em class="list"></em>
+                        <em class="list"></em>
+                        <em class="list"></em>
+                        <div class="line"></div>
+                    </div>
+                    <div class="middle">
+                        <em class="list"></em>
+                    </div>
+                    <div class="rearWheel">
+                        <em class="list"></em>
+                        <em class="list"></em>
+                        <em class="list"></em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--火车结束-->
+        <!--A页面-->
+        <div class="P3">
+            <ul>
+                <li class="ticket1">
+                    <img src="./images/P3_ticket.png" alt="" class="P3_ticket1">
+                    <img src="./images/P3_button1.png" alt="" class="P3_button1">
+                </li>
+                <li class="ticket2">
+                    <img src="./images/P3_ticket.png" alt="" class="P3_ticket2">
+                    <img src="./images/P3_button2.png" alt="" class="P3_button2">
+                </li>
+                <li class="ticket3">
+                    <img src="./images/P3_ticket.png" alt="" class="P3_ticket3">
+                    <img src="./images/P3_button3.png" alt="" class="P3_button3">
+                </li>
+                <li class="ticket4">
+                    <img src="./images/P3_ticket.png" alt="" class="P3_ticket4">
+                    <img src="./images/P3_button4.png" alt="" class="P3_button4">
+                </li>
+            </ul>
+            <img src="./images/P3_congratulation.png" alt="" class="P3_congratulation">
+            <div class="P3_foot">
+                <img src="./images/P3_footIMG.png" alt="" class="P3_footIMG">
+            </div>
+        </div>
+        <!--A页面结束-->
+        <!--内容1-->
+        <div class="content1">
+            <div class="content1_cover">
+                <div class="content1_head"></div>
+                <div class="content1_play">
+                    <video id="trust_video" preload="auto" playsinline="true" webkit-playsinline="true"
+                        x5-playsinline="true" loop controls>
+                        <source src="./source/identify.mp4" type="video/mp4">
+                    </video>
+                    <!--<img src="./images/player.png" alt="" class="content1_player">-->
+                    <!--<img src="./images/fullScreen.png" alt="" class="fullScreen">-->
+                </div>
+                <img src="./images/close.png" alt="" class="content1_close">
+            </div>
+        </div>
+        <!--内容1结束-->
+        <!--内容2-->
+        <div class="content2">
+            <img src="./images/hall_bkg.jpg" alt="" class="content2_bkg">
+            <div class="coverall"></div>
+            <div class="content2_cover">
+                <div class="content2_head"></div>
+                <ul class="content2_ul">
+                    <li class="li1_img">
+                        <img src="./images/trust_li1.png" alt="" class="trust_li1">
+                    </li>
+                    <li class="li2_img">
+                        <img src="./images/trust_li2.png" alt="" class="trust_li2">
+                    </li>
+                    <li class="li3_img">
+                        <img src="./images/trust_li3.png" alt="" class="trust_li3">
+                    </li>
+                    <li class="li4_img">
+                        <img src="./images/trust_li4.png" alt="" class="trust_li4">
+                    </li>
+                </ul>
+                <img src="./images/close.png" alt="" class="content2_close">
+            </div>
+            <div class="content21">
+                <div class="content21_head"></div>
+                <div class="content21_play">
+                    <video id="promise_video" preload="auto" playsinline="true" webkit-playsinline="true"
+                        x5-playsinline="true" loop controls>
+                        <source src="./source/promise.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="content21_txt">
+                    <div class="marquee">
+                        <div class="content clearfix" id="content">
+                            <p class="text">
+                                美丽所系，信赖相付。当我身着白色医袍，谨在此庄严宣誓：我志愿献身整形美容医学，精进自身专业能力，不负求美者的信赖选择。坚决使用正规产品，严格遵守医疗专业规范，守护每一位求美者的美丽梦想。我决心，以专业，构建信赖，以信赖，传递美丽正能量。愿为求美者，创造生命无限潜能。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/close.png" alt="" class="content21_close">
+            </div>
+            <div class="content22">
+                <div class="content22_new">
+                    <img src="./images/new1.jpg" alt="" class="content22_new1">
+                    <img src="./images/new2.jpg" alt="" class="content22_new2">
+                    <p>
+                        <a href="http://t.yzinter.com/index.php?m=News&a=listcontent&id=560409&classid=45&from=singlemessage&isappinstalled=0"
+                            target="_blank">害怕“假脸”现形？遵循章法坚持正规 微整形安全变美一点不难</a></p>
+                    <p>
+                        <a href="http://jnews.xhby.net/waparticles/20/hPcPsjmLLdhbreHi/1?from=singlemessage&isappinstalled=0"
+                            target="_blank">选择微整形，先要验明医院、医生和产品的真身</a></p>
+                    <p>
+                        <a href="http://m.xxcb.cn/xxcb/event/caijing/2018-05-23/9073622.html"
+                            target="_blank">张涛：回归医疗本质是市场所需也是医美行业发展之道</a></p>
+                    <p>
+                        <a href="http://m.xxcb.cn/xxcb/event/caijing/2018-05-23/9073622.html"
+                            target="_blank">广州华美赵晶晶、金琳谈“如何让医美消费变得更安心”</a></p>
+                    <p>
+                        <a href="https://mp.weixin.qq.com/s/F6r5avEpU8t4FbJbr4cxZA"
+                            target="_blank">广州医美医生开展信赖宣誓，多方共议进一步提升行业信赖度</a></p>
+                    <p>
+                        <a href="https://mp.weixin.qq.com/s?__biz=MjM5Mzk3MzQwNg==&mid=2655353719&idx=3&sn=6c94d157df94459356b8f479c1d90f13&chksm=bd3f0e868a4887902c3e3117818b91481464f4d063221a269702fac3da11dc7599847c468758&mpshare=1&scene=1&srcid=0526NVBebIDYapY400lj9XLH"
+                            target="_blank">变美是刚需，怎么选择可信赖医生？</a></p>
+                    <p>
+                        <a href="http://apiv4.cst123.cn/cst/news/shareDetail?id=186877661761503232&from=timeline&isappinstalled=0"
+                            target="_blank">许凤芝：整形美容要有自己的审美，盲目追求“网红脸”不可取</a></p>
+                    <p>
+                        <a href="https://web.dskb.co/news/posts/97407?utm_source=dskbapp&utm_medium=wechat&from=singlemessage&isappinstalled=0"
+                            target="_blank">“2018医美信赖先锋行动”走入杭州 专访：六问医美行业现状&趋势——为你支招如何选择正规医院、医生、产品</a></p>
+                    <p>
+                        <a href="https://337.ccwb.cn/wxpage/main/detail.html?share_id=20180530232013RKLDH8&cw_id=20180530231144EKJKA3&code=081XuwfJ1I4X060V9UhJ1BLdfJ1Xuwfu&state="
+                            target="_blank">昆明吴氏嘉美美容医院院长吴承道：90后逐渐成为医美消费主力军，医美消费市场需求日趋理性化</a></p>
+                    <p>
+                        <a href="https://www.dutenews.com/p/134482.html" target="_blank">医美专家梁宇辉：提升行业信赖度需要理解消费者根本需求</a>
+                    </p>
+                    <p>
+                        <a href="https://mp.weixin.qq.com/s/jrDQltm4t8s_IVbodJUIJw" target="_blank">医疗美容医生信赖宣誓在沪举行
+                            各方专家谏言医美行业信赖度建设</a></p>
+                    <p>
+                        <a href="http://www.bjnews.com.cn/health/2018/06/13/491002.html?from=timeline&isappinstalled=0"
+                            target="_blank">调查显示信赖成医美体验关键，医美医生宣誓坚决使用正规产品</a></p>
+                    <p>
+                        <a href="https://zj.zjol.com.cn/news.html?id=977468" target="_blank">增强医美安全意识 专家建议消费者认准“三正规”</a>
+                    </p>
+                </div>
+                <img src="./images/close.png" alt="" class="content22_close">
+                <img src="./images/slide_down.png" alt="" class="slide_down">
+            </div>
+            <div class="content23">
+                <div class="content23_head"></div>
+                <div class="content23_play">
+                    <video id="city_video" preload="auto" playsinline="true" webkit-playsinline="true"
+                        x5-playsinline="true" loop controls>
+                        <source src="./source/identify.mp4" type="video/mp4">
+                    </video>
+                    <!--<img src="./images/player.png" alt="" class="content23_player">-->
+                    <!--<img src="./images/fullScreen.png" alt="" class="fullScreen">-->
+                </div>
+                <img src="./images/close.png" alt="" class="content23_close">
+            </div>
+            <div class="content24">
+                <div class="content24_head"></div>
+                <div class="content24_vote">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face1.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">张佳怡</p>
+                                        <p class="vote_hospital">艺星整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>我会变魔术</p>
+                                            <p>专门大变美人</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">1123</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face2.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">吴启明</p>
+                                        <p class="vote_hospital">伊莱美整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>一般想变帅都不</p>
+                                            <p>会找最帅的医生</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">998</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face2.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">李白</p>
+                                        <p class="vote_hospital">艾妍整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>我是"李"叫兽</p>
+                                            <p>让你美到尖叫</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">99</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face1.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">张佳怡</p>
+                                        <p class="vote_hospital">艺星整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>我会变魔术</p>
+                                            <p>专门大变美人</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">1123</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face1.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">张佳怡</p>
+                                        <p class="vote_hospital">艺星整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>我会变魔术</p>
+                                            <p>专门大变美人</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">1123</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face1.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">张佳怡</p>
+                                        <p class="vote_hospital">艺星整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>我会变魔术</p>
+                                            <p>专门大变美人</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">1123</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face1.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">张佳怡</p>
+                                        <p class="vote_hospital">艺星整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>我会变魔术</p>
+                                            <p>专门大变美人</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">1123</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vote_item">
+                                    <div class="vote_face">
+                                        <img src="./images/vote_face1.jpg" alt="">
+                                    </div>
+                                    <div class="vote_info">
+                                        <p class="vote_name">张佳怡</p>
+                                        <p class="vote_hospital">艺星整形医院</p>
+                                    </div>
+                                    <div class="vote_content">
+                                        <div class="vote_wrap">
+                                            <p>我会变魔术</p>
+                                            <p>专门大变美人</p>
+                                        </div>
+                                    </div>
+                                    <div class="vote_count">1123</div>
+                                </div>
+                                <div class="button_wrap" rel="unlike">
+                                    <div class="vote_button"></div>
+                                    <div class="vote_like_wrap">
+                                        <div class="vote_like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                </div>
+                <img src="./images/close.png" alt="" class="content24_close">
+            </div>
+        </div>
+        <!--内容2结束-->
+        <!--内容3-->
+        <div class="content3">
+            <img src="./images/hall_bkg.jpg" alt="" class="content3_bkg">
+            <div class="coverall"></div>
+            <div class="content3_cover">
+                <div class="content3_head"></div>
+                <ul>
+                    <li class="li1_img">
+                        <a href="http://www.ai-yan.com/" target="_blank"><img src="./images/achieve_li1.png" alt=""
+                                class="achieve_li1"></a>
+                    </li>
+                    <li class="li2_img">
+                        <img src="./images/achieve_li2.png" alt="" class="achieve_li2">
+                    </li>
+                </ul>
+                <img src="./images/close.png" alt="" class="content3_close">
+            </div>
+            <div class="content32">
+                <div class="content32_head"></div>
+                <div class="content32_play">
+                    <video id="identify_video" preload="auto" playsinline="true" webkit-playsinline="true"
+                        x5-playsinline="true" loop controls>
+                        <source src="./source/identify.mp4" type="video/mp4">
+                    </video>
+                    <!--<img src="./images/player.png" alt="" class="content32_player">-->
+                    <!--<img src="./images/fullScreen.png" alt="" class="fullScreen">-->
+                </div>
+                <img src="./images/close.png" alt="" class="content32_close">
+            </div>
+        </div>
+        <!--内容3结束-->
+        <!--内容4-->
+        <div class="content4">
+            <div class="content4_img">
+                <img src="./images/content4_bkg.jpg" alt="" class="content4_bkg">
+            </div>
+            <img src="./images/white_close.png" alt="" class="content4_close">
+        </div>
+        <!--内容4结束-->
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/fastclick.js"></script>
+    <script src="./js/swiper-4.3.3.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        let mySwiper = new Swiper('.content24_vote .swiper-container', {
+            observer: true,
+            observeParents: true, //初始化swiper
+            slidesPerView: 4, //显示个数
+            slidesPerGroup: 3, //滚动个数
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        })
+    </script>
+</body>
+
+</html>
