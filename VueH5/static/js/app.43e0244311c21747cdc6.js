@@ -363,7 +363,9 @@ webpackJsonp(
           methods: {
             getHomeInfo: function () {
               k.a
-                .get("https://gitee.com/onethinking/h5/raw/master/VueH5/static/api/index.json?city=" + this.city)
+                .get(
+                  "https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/api/index.json?city=" + this.city
+                )
                 .then(this.getHomeInfoSucc);
             },
             getHomeInfoSucc: function (t) {
@@ -766,7 +768,7 @@ webpackJsonp(
           methods: {
             getCityInfo: function () {
               k.a
-                .get("https://gitee.com/onethinking/h5/raw/master/VueH5/static/api/city.json")
+                .get("https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/api/city.json")
                 .then(this.handleGetCityInfoSucc);
             },
             handleGetCityInfoSucc: function (t) {
@@ -1077,7 +1079,7 @@ webpackJsonp(
           methods: {
             getDetailInfo: function () {
               k.a
-                .get("https://gitee.com/onethinking/h5/raw/master/VueH5/static/api/detail.json", {
+                .get("https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/api/detail.json", {
                   params: { id: this.$route.params.id },
                 })
                 .then(this.handleGetDataSucc);

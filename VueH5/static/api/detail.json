@@ -2,13 +2,13 @@
   "ret": true,
   "data": {
     "sightName": "武汉万达主题乐园(AAAA景区)",
-    "bannerImg": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda.jpg",
+    "bannerImg": "https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/img/Dwanda.jpg",
     "gallaryImgs": [
-      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda01.jpg",
-      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda02.jpg",
-      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda03.jpg",
-      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda04.jpg",
-      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda05.jpg"
+      "https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/img/Dwanda01.jpg",
+      "https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/img/Dwanda02.jpg",
+      "https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/img/Dwanda03.jpg",
+      "https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/img/Dwanda04.jpg",
+      "https://raw.githubusercontent.com/JonesXie/demobox/master/VueH5/static/img/Dwanda05.jpg"
     ],
     "categoryList": [
       {
