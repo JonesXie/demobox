@@ -1,0 +1,41 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "武汉万达主题乐园(AAAA景区)",
+    "bannerImg": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda.jpg",
+    "gallaryImgs": [
+      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda01.jpg",
+      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda02.jpg",
+      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda03.jpg",
+      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda04.jpg",
+      "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/Dwanda05.jpg"
+    ],
+    "categoryList": [
+      {
+        "title": "成人票",
+        "children": [
+          {
+            "title": "成人三馆联票",
+            "children": [
+              {
+                "title": "成人三馆联票 - 某一连锁店销售"
+              }
+            ]
+          },
+          {
+            "title": "成人五馆联票"
+          }
+        ]
+      },
+      {
+        "title": "学生票"
+      },
+      {
+        "title": "儿童票"
+      },
+      {
+        "title": "特惠票"
+      }
+    ]
+  }
+}

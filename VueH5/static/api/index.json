@@ -1,0 +1,123 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/vue01.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/vue02.jpg"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/vue03.jpg"
+      }
+    ],
+    "iconsList": [
+      {
+        "id": "0001",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/menpiao.png",
+        "desc": "景点门票"
+      },
+      {
+        "id": "0002",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/liuyi.png",
+        "desc": "六一特惠"
+      },
+      {
+        "id": "0003",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/fenguang.png",
+        "desc": "自然风光"
+      },
+      {
+        "id": "0004",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/youlechang.png",
+        "desc": "游乐场"
+      },
+      {
+        "id": "0005",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/yiriyou.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "0006",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/bendi.png",
+        "desc": "本地玩乐"
+      },
+      {
+        "id": "0007",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/biwan.png",
+        "desc": "必游榜单"
+      },
+      {
+        "id": "0008",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/liuwa.png",
+        "desc": "溜娃儿"
+      },
+      {
+        "id": "0009",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/haiyangguan.png",
+        "desc": "海洋馆"
+      },
+      {
+        "id": "0010",
+        "iconUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/zhutileyuan.png",
+        "desc": "主题乐园"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/wandatheme.jpg",
+        "title": "武汉万达主题乐园",
+        "desc": "武汉最大，各种娱乐设施让你嗨不停"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/sea.jpg",
+        "title": "武汉海洋世界",
+        "desc": "推荐，武汉本月收藏Top5╰(￣▽￣)╭"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/wandawater.jpg",
+        "title": "武汉万达水乐园",
+        "desc": "清凉夏日，多种水上设施供你游玩"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/culture.jpg",
+        "title": "非物质文化遗产院",
+        "desc": "历史与现代的相遇，就在这里"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/baogongci.jpg",
+        "title": "武汉必游TOP5",
+        "desc": "尽览名胜旖旎风光，到古迹吊古凭今"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/history.jpg",
+        "title": "醉美历史古韵",
+        "desc": "千年的风雨，赋予了这里深厚的历史积淀"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/yixian.jpg",
+        "title": "黟县旅游",
+        "desc": "走进黄山，探寻桃花源里的人家"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://gitee.com/onethinking/h5/raw/master/VueH5/static/img/piaoliu.jpg",
+        "title": "酷爽漂流一夏",
+        "desc": "烈日炎炎，我们一起打水战吧"
+      }
+    ]
+  }
+}
